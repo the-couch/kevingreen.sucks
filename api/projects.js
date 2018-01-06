@@ -16,7 +16,7 @@ module.exports = {
       name: 'Wool & Oak',
       position: 'Frontend Development',
       tools: 'Preact, Shopify, Contentful',
-      url: 'https://woolandoak.com'
+      url: 'https://www.woolandoak.com'
     },
     {
       name: 'Thing of Wonder',
@@ -24,5 +24,145 @@ module.exports = {
       tools: 'Timber, Wordpress, Vanilla JS',
       url: 'http://thingofwonder.com'
     },
+    {
+      name: 'MissionU',
+      position: 'Frontend Development',
+      tools: 'React, Redux, Express',
+      url: 'https://www.missionu.com'
+    },
+    {
+      name: 'Cabin',
+      position: 'Frontend Development',
+      tools: 'React',
+      url: 'https://www.ridecabin.com'
+    },
+    {
+      name: 'Bowery Farming',
+      position: 'Frontend Development',
+      tools: 'Meteor, React, Prismic',
+      url: 'http://boweryfarming.com'
+    },
+    {
+      name: 'Perfect Day',
+      position: 'Front/Backend Development',
+      tools: 'Timber, Wordpress, Vanilla JS',
+      url: 'http://perfectdayfoods.com'
+    },
+    {
+      name: "Chef's Cut Real Jerky",
+      position: 'Frontend Development',
+      tools: 'React, Shopify, Prismic',
+      url: 'https://chefscutrealjerky.com/'
+    },
+    {
+      name: 'Embroker',
+      position: 'Frontend Development',
+      tools: 'Vanilla JS',
+      url: 'https://embroker.com/'
+    },
+    {
+      name: 'Here One',
+      position: 'Front/Backend Development',
+      tools: 'Meteor, React, Schema.io'
+    },
+    {
+      name: 'Olapic',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress, Timber, Vanilla JS'
+    },
+    {
+      name: 'Imboldn',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress, Timber, WPML, Vanilla JS',
+      url: 'http://imboldn.com/'
+    },
+    {
+      name: 'Maiyet',
+      position: 'Front/Backend Development',
+      tools: 'Meteor, React, Firebase, Algolia, Shopify'
+    },
+    {
+      name: 'Tasting Table',
+      position: 'Frontend Development',
+      tools: 'Vanilla JS',
+      url: 'http://tastingtable.com/'
+    },
+    {
+      name: 'Theas English Tea',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress, Timber, Vanilla JS',
+      url: 'http://theasenglishtea.com/'
+    },
+    {
+      name: 'Inday NYC',
+      position: 'Frontend Development',
+      tools: 'Vanilla JS',
+      url: 'http://indaynyc.com/'
+    },
+    {
+      name: 'Breadhouse',
+      position: 'Frontend Development',
+      tools: 'Vanilla JS',
+      url: 'http://breadhou.se/'
+    },
+    {
+      name: 'Grandlife Hotels',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress, Timber, WPML, Multi-site',
+      url: 'http://www.grandlifehotels.com/'
+    },
+    {
+      name: 'Sunland',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress, Timber, Vanilla JS',
+      url: 'http://sunlandhoney.com/'
+    },
+    {
+      name: 'CS Industries',
+      position: 'Frontend Development',
+      tools: 'Vanilla JS',
+      url: 'http://csindus.com/'
+    },
+    {
+      name: 'Artemest',
+      position: 'Front/Backend Development',
+      tools: 'Vanilla JS',
+      url: 'http://csindus.com/'
+    },
+    {
+      name: 'Ellevate Network',
+      position: 'Front/Backend Development',
+      tools: 'Rails, Ruby',
+      url: 'http://ellevatenetwork.com/'
+    },
+    {
+      name: 'Brooklyn Gin',
+      position: 'Front/Backend Development',
+      tools: 'Wordpress',
+      url: 'http://brooklyngin.com/'
+    },
+  ],
+  quotes: [
+    {
+      quote: 'rumored to have coded at least 50% of the internet'
+    },
+    {
+      quote: 'once coded for 9 days straight'
+    },
+    {
+      quote: "generally doesn't think your ideas are good but might code it for money"
+    },
+    {
+      quote: 'would trade equity for time with your cat'
+    },
+    {
+      quote: 'refuses to explain fixation with spaghetti'
+    },
+    {
+      quote: 'once went to a casper meeting with pigtails'
+    },
+    {
+      quote: 'just wait till my autobiography drops'
+    }
   ]
 }

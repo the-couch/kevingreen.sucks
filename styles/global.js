@@ -49,6 +49,7 @@ module.exports = () => (
       }
       h2, h2 a {
         color: black;
+        font-size: 24px;
         font-family: 'Dia', sans-serif;
         font-weight: 800;
       }
@@ -90,6 +91,12 @@ module.exports = () => (
       }
       .px1 {
         padding: 1rem;
+      }
+      .px0 {
+        padding: 0;
+      }
+      .mx0 {
+        margin: 0;
       }
       .abs {
         position: absolute;
@@ -142,7 +149,7 @@ module.exports = () => (
       }
       p, a {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 16px;
         line-height: 1.15;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;

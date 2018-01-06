@@ -1,18 +1,17 @@
 module.exports = ({ name, url, position, tools }) => (
-  <div className='ppl'>
+  <div className='project'>
     <style jsx>{`
-      .ppl {
-        width: 50%;
+      .project {
         padding-bottom: 20px;
       }
       @media (min-width: 80em) {
-        .ppl {
+        .project {
           padding-bottom: 0;
         }
       }
       `}</style>
-    <h2><a href={url} target='_blank'>{name}</a></h2>
-    <h4>{position}</h4>
-    <p>{tools}</p>
+    <h2 className='mx0 px0'><a href={url} target='_blank'>{name}</a></h2>
+    <h4 className='mx0 px0'>{position}</h4>
+    <p className='mx0 px0'>{tools}</p>
   </div>
 )
