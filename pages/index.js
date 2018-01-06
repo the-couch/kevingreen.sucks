@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import Layout from '../components/layout'
 import Header from '../components/header'
-import Window from '../components/window'
 import ReactGA from 'react-ga'
 import Project from '../components/project'
 
