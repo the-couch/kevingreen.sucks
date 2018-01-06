@@ -47,16 +47,24 @@ module.exports = () => (
         line-height: 1;
         margin: 14px 0 28px;
       }
-      @media (min-width: 45rem) {
-        h1 {
-          font-size: 32px;
-        }
-      }
       h2, h2 a {
         color: black;
         font-size: 24px;
         font-family: 'Dia', sans-serif;
         font-weight: 800;
+      }
+      @media (min-width: 45rem) {
+        h1 {
+          font-size: 32px;
+        }
+        h2 a, h2 {
+          font-size: 40px;
+        }
+      }
+      @media (min-width: 55rem) {
+        h2 a, h2 {
+          font-size: 50px;
+        }
       }
       .ar {
         text-align: right;

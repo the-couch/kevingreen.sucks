@@ -93,10 +93,10 @@ export default () => (
       <h1 className='caps'>Kevin&nbsp;Green</h1>
       <div className='social__block'>
         <div className='social'>
-          <img src='static/medium.png' />
+          <a href="https://medium.com/@iamkevingreen" target="_blank"><img src='static/medium.png' /></a>
         </div>
         <div className='social'>
-          <img src='static/github.png' />
+          <a href="https://github.com/iamkevingreen" target="_blank"><img src='static/github.png' /></a>
         </div>
       </div>
       <div className='spaghetti'>
