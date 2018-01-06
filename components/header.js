@@ -26,16 +26,81 @@ export default () => (
       .header {
         border-bottom: 5px solid black;
         padding: 18px 20px 16px;
+        position: relative;
       }
       .header h1 {
         padding: 0;
         margin: 0;
       }
+      .social__block {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .social {
+        border-left: 5px solid black;
+        height: 100%;
+        display: flex;
+        padding: 14px;
+        justify-content: center;
+        align-items: center;
+      }
+      .social img {
+        width: 30px;
+      }
+      .spaghetti {
+        display: none;
+      }
+      @media (min-width: 45rem) and (min-height: 800px) {
+        .header {
+          position: fixed;
+          width: 140px;
+          height: 100vh;
+          border-bottom: none;
+          border: 5px solid black;
+          background-color: white;
+        }
+        .header h1 {
+          position: absolute;
+          top: 260px;
+          left: 0px;
+          transform: rotate(-90deg);
+          width: 100%;
+        }
+        .social__block {
+          height: 100px;
+          width: 100%;
+          bottom: 200px;
+          top: auto;
+          border-top: 5px solid black;
+          border-bottom: 5px solid black;
+        }
+        .social:first-child {
+          border-left: 0;
+        }
+        .spaghetti {
+          display: block;
+          position: absolute;
+          bottom: 50px;
+        }
+      }
       `}</style>
-    <div className='header'>
-      <h1 className='caps'>Kevin Green</h1>
-      <div className='social'>
-        
+    <div className='header rel'>
+      <h1 className='caps'>Kevin&nbsp;Green</h1>
+      <div className='social__block'>
+        <div className='social'>
+          <img src='static/medium.png' />
+        </div>
+        <div className='social'>
+          <img src='static/github.png' />
+        </div>
+      </div>
+      <div className='spaghetti'>
+        <img src='static/spaghetti.png' />
       </div>
     </div>
   </div>

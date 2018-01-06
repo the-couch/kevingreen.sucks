@@ -78,6 +78,14 @@ export default class extends Component {
               max-width: 22px;
             }
           }
+          @media (min-width: 45rem) and (min-height: 800px) {
+            .projects {
+              margin-left: 140px;
+            }
+            .about {
+              margin-left: 140px;
+            }
+          }
           `}</style>
         <div>
           <div className='wrapper main'>
