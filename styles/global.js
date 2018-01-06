@@ -132,14 +132,6 @@ module.exports = () => (
       .z1 {
         z-index: 10;
       }
-      .wrapper {
-        max-width: 950px;
-      }
-      @media (min-width: 70em) {
-        .wrapper {
-          max-width: 68vw;
-        }
-      }
       a {
         text-decoration: none;
         transition: all .25s;

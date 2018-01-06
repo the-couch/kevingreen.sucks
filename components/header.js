@@ -34,6 +34,9 @@ export default () => (
       `}</style>
     <div className='header'>
       <h1 className='caps'>Kevin Green</h1>
+      <div className='social'>
+        
+      </div>
     </div>
   </div>
 )

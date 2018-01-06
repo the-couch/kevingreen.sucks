@@ -2,7 +2,7 @@ module.exports = ({ name, url, position, tools }) => (
   <div className='project'>
     <style jsx>{`
       .project {
-        padding-bottom: 20px;
+        padding: 30px 0;
       }
       @media (min-width: 80em) {
         .project {

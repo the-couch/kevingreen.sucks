@@ -48,11 +48,22 @@ export default class extends Component {
           .main {
             padding-top: 10px;
           }
-          .about {
+          .about__text {
             border-bottom: 5px solid black;
             padding: 20px;
           }
-          .about a {
+          .about__link a {
+            background: black;
+            color: white;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            font-weight: 600;
+            text-align: center;
+            padding: 18px 0 20px;
+
+          }
+          .about__text a {
             font-weight: 600;
             color: black;
           }
@@ -71,8 +82,13 @@ export default class extends Component {
         <div>
           <div className='wrapper main'>
             <div className='about'>
-              <p>My name is Kevin Green, I'm currently the Lead Engineer and Co-Founder at <a href="https://thecouch.nyc">The Couch</a> living and working in Brooklyn.</p>
-              <p>Previously working for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
+              <div className='about__text'>
+                <p>My name is Kevin Green, I'm currently the Lead Engineer and Co-Founder at <a href="https://thecouch.nyc">The Couch</a> living and working in Brooklyn.</p>
+                <p>Previously working for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
+              </div>
+              <div className='about__link'>
+                <a className='cw caps' href="mailto:kevin@thecouch.nyc">Write me a letter</a>
+              </div>
             </div>
             <div className='projects'>
               {API.data.map((project, i) => (
