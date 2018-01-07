@@ -7,7 +7,7 @@ import Project from '../components/project'
 import API from '../api/projects'
 
 const initGA = () => {
-  ReactGA.initialize('UA-96992953-1')
+  ReactGA.initialize('UA-112036702-1')
 }
 const logPageView = () => {
   ReactGA.set({ page: window.location.pathname })

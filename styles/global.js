@@ -1,4 +1,4 @@
-module.exports = () => (
+module.exports = ({background, color}) => (
   <div>
     <style global jsx>{`
       @font-face {

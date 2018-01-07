@@ -147,9 +147,6 @@ module.exports = {
       quote: 'rumored to have coded at least 50% of the internet'
     },
     {
-      quote: 'once coded for 9 days straight'
-    },
-    {
       quote: "generally doesn't think your ideas are good but might code it for money"
     },
     {
@@ -163,6 +160,9 @@ module.exports = {
     },
     {
       quote: 'just wait till my autobiography drops'
+    },
+    {
+      quote: "doesn't remember a lot of 2017 but most likely coded more than slept"
     }
   ]
 }

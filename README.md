@@ -1,1 +1,1 @@
-Simple Next App for running The Couch website
+Simple Next App for running kevingreen.sucks website
