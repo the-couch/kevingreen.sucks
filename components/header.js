@@ -70,8 +70,10 @@ module.exports = class Header extends Component {
   }
   closeImage (e) {
     console.log('close image', e)
+    let currentImages = this.state.images
+    currentImages.splice(e, 1)
     this.setState({
-      images: this.state.images.splice(e, 1),
+      images: currentImages,
       open: this.state.open - 1,
       closed: this.state.closed + 1
     })
@@ -194,7 +196,7 @@ module.exports = class Header extends Component {
         </div>
         <div className='images'>
           {this.state.images.map((image, i) => {
-            return <Window key={image.key} id={i} image={image.image} closeImage={this.closeImage} />
+            return <Window key={image.key} id={i} image={image.image} closeImage={(e) => this.closeImage(e)} />
           })}
         </div>
         <div className='header rel'>

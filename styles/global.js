@@ -29,12 +29,22 @@ module.exports = ({background, color}) => (
       }
       .border {
         position: fixed;
-        z-index: 0;
+        z-index: 1000000000;
         width: 100%;
-        height: 100%;
-        border: 5px solid black;
+        background: black;
+        height: 5px;
         left: 0;
         top: 0;
+      }
+      .border:after {
+        content: '';
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 5px;
+        width: 100%;
+        background: black;
+        z-index: 10000000;
       }
       .layout {
         position: relative;
@@ -133,7 +143,6 @@ module.exports = ({background, color}) => (
       }
       a {
         text-decoration: none;
-        transition: all .25s;
       }
       a:hover {
 

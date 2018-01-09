@@ -4,61 +4,81 @@ module.exports = {
       name: 'The Wing Marketing',
       position: 'Front/Backend Development',
       tools: 'React, Gatsby, Algolia, Wordpress API, Shopify',
-      url: 'https://www.the-wing.com'
+      url: 'https://www.the-wing.com',
+      colorChange: '#d28c0e',
+      image: '/static/the-wing.jpg'
     },
     {
       name: 'The Wing Coven',
       position: 'Front/Backend Development',
       tools: 'Meteor, React, Stripe, Algolia, MongoDB',
-      url: 'https://witches.the-wing.com'
+      url: 'https://witches.the-wing.com',
+      colorChange: '#d28c0e',
+      image: '/static/wing-coven.jpg'
     },
     {
       name: 'Wool & Oak',
       position: 'Frontend Development',
       tools: 'Preact, Shopify, Contentful',
-      url: 'https://www.woolandoak.com'
+      url: 'https://www.woolandoak.com',
+      colorChange: '#d0693c',
+      image: '/static/woolandoak.jpg'
     },
     {
       name: 'Thing of Wonder',
       position: 'Front/Backend Development',
       tools: 'Timber, Wordpress, Vanilla JS',
-      url: 'http://thingofwonder.com'
+      url: 'http://thingofwonder.com',
+      colorChange: '#fd8180',
+      image: '/static/thingofwonder.jpg'
     },
     {
       name: 'MissionU',
       position: 'Frontend Development',
       tools: 'React, Redux, Express',
-      url: 'https://www.missionu.com'
+      url: 'https://www.missionu.com',
+      colorChange: '#ec6054',
+      image: '/static/missionu.jpg'
     },
     {
       name: 'Cabin',
       position: 'Frontend Development',
       tools: 'React',
-      url: 'https://www.ridecabin.com'
+      url: 'https://www.ridecabin.com',
+      colorChange: '#ffffff',
+      image: '/static/cabin.jpg'
     },
     {
       name: 'Bowery Farming',
       position: 'Frontend Development',
       tools: 'Meteor, React, Prismic',
-      url: 'http://boweryfarming.com'
+      url: 'http://boweryfarming.com',
+      colorChange: 'rgba(166,38,138,1)',
+      image: '/static/bowery.jpg'
     },
     {
       name: 'Perfect Day',
       position: 'Front/Backend Development',
       tools: 'Timber, Wordpress, Vanilla JS',
-      url: 'http://perfectdayfoods.com'
+      url: 'http://perfectdayfoods.com',
+      colorChange: '#6d94ff',
+      image: '/static/perfectday.jpg'
     },
     {
       name: "Chef's Cut Real Jerky",
       position: 'Frontend Development',
       tools: 'React, Shopify, Prismic',
-      url: 'https://chefscutrealjerky.com/'
+      url: 'https://chefscutrealjerky.com/',
+      colorChange: '#c92434',
+      image: '/static/chefcut.jpg'
     },
     {
       name: 'Embroker',
       position: 'Frontend Development',
       tools: 'Vanilla JS',
-      url: 'https://embroker.com/'
+      url: 'https://embroker.com/',
+      colorChange: '#6673ff',
+      image: '/static/embroker.jpg'
     },
     {
       name: 'Here One',
@@ -74,7 +94,9 @@ module.exports = {
       name: 'Imboldn',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, WPML, Vanilla JS',
-      url: 'http://imboldn.com/'
+      url: 'http://imboldn.com/',
+      colorChange: '#000000',
+      image: '/static/imboldn.jpg'
     },
     {
       name: 'Maiyet',
@@ -85,61 +107,75 @@ module.exports = {
       name: 'Tasting Table',
       position: 'Frontend Development',
       tools: 'Vanilla JS',
-      url: 'http://tastingtable.com/'
+      url: 'http://tastingtable.com/',
+      colorChange: '#0062FF',
+      image: '/static/tasting-table.jpg'
     },
     {
       name: 'Theas English Tea',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, Vanilla JS',
-      url: 'http://theasenglishtea.com/'
+      url: 'http://theasenglishtea.com/',
+      colorChange: '#f4c850',
+      image: '/static/theas.jpg'
     },
     {
       name: 'Inday NYC',
       position: 'Frontend Development',
-      tools: 'Vanilla JS',
-      url: 'http://indaynyc.com/'
+      tools: 'Vanilla JS'
     },
     {
       name: 'Breadhouse',
       position: 'Frontend Development',
       tools: 'Vanilla JS',
-      url: 'http://breadhou.se/'
+      url: 'http://breadhou.se/',
+      colorChange: '#ffffff',
+      image: '/static/breadhouse.jpg'
     },
     {
       name: 'Grandlife Hotels',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, WPML, Multi-site',
-      url: 'http://www.grandlifehotels.com/'
+      url: 'http://www.grandlifehotels.com/',
+      colorChange: '#000000',
+      image: '/static/grandlife.jpg'
     },
     {
       name: 'Sunland',
       position: 'Front/Backend Development',
-      tools: 'Wordpress, Timber, Vanilla JS',
-      url: 'http://sunlandhoney.com/'
+      tools: 'Wordpress, Timber, Vanilla JS'
     },
     {
       name: 'CS Industries',
       position: 'Frontend Development',
       tools: 'Vanilla JS',
-      url: 'http://csindus.com/'
+      url: 'http://csindus.com/',
+      colorChange: '#ffffff',
+      image: '/static/cs.jpg'
     },
     {
       name: 'Artemest',
       position: 'Front/Backend Development',
       tools: 'Vanilla JS',
-      url: 'http://csindus.com/'
+      url: 'http://csindus.com/',
+      colorChange: '#B79961',
+      image: '/static/artemest.jpg'
     },
     {
       name: 'Ellevate Network',
       position: 'Front/Backend Development',
       tools: 'Rails, Ruby',
-      url: 'http://ellevatenetwork.com/'
+      url: 'http://ellevatenetwork.com/',
+      colorChange: '#004da5',
+      image: '/static/ellevate.jpg'
     },
     {
       name: 'Brooklyn Gin',
       position: 'Front/Backend Development',
       tools: 'Wordpress',
-      url: 'http://brooklyngin.com/'
+      url: 'http://brooklyngin.com/',
+      colorChange: '#594D49',
+      image: '/static/brooklyn.jpg'
     },
   ],
   quotes: [
@@ -147,7 +183,7 @@ module.exports = {
       quote: 'rumored to have coded at least 50% of the internet'
     },
     {
-      quote: "generally doesn't think your ideas are good but might code it for money"
+      quote: "has coded bad ideas in the past, would do it again"
     },
     {
       quote: 'has lit his hair on fire at a company party'

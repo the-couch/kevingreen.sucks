@@ -118,6 +118,7 @@ export default class extends Component {
               position: fixed;
               right: 0;
               width: 300px;
+              background-color: white;
               top: 0;
               height: calc(100vh - 240px);
               border-left: 5px solid black;
