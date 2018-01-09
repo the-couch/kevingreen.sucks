@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Head from 'next/head'
 import GlobalStyle from '../styles/global'
+import Window from './window'
 
 const colors = [
   {
@@ -8,13 +9,72 @@ const colors = [
   }
 ]
 
+const images = [
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_1.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_2.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_3.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_4.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_5.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_1.jpg'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_2.jpg'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_1.png'
+  }
+]
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+let spaghettiInterval
+
 module.exports = class Header extends Component {
   constructor (props) {
     super(props)
     this.state = {
       background: 'rgba(255,255,255,1)',
-      color: 'rgba(0,0,0,1)'
+      color: 'rgba(0,0,0,1)',
+      spaghetti: false,
+      open: 0,
+      images: [],
+      closed: 0,
+      start: 1
     }
+    this.renderSpaghetti = this.renderSpaghetti.bind(this)
+    this.closeImage = this.closeImage.bind(this)
+  }
+  startSpaghetti () {
+    var intervalId = setInterval(this.renderSpaghetti, 1000)
+    this.setState({intervalId: intervalId})
+  }
+  renderSpaghetti () {
+    this.setState({
+      images: [...this.state.images, {key: this.state.start, image: images[getRandomInt(8)].image}],
+      start: this.state.start + 1,
+      open: this.state.open + 1
+    })
+  }
+  closeImage (e) {
+    console.log('close image', e)
+    this.setState({
+      images: this.state.images.splice(e, 1),
+      open: this.state.open - 1,
+      closed: this.state.closed + 1
+    })
   }
   render () {
     return (
@@ -106,8 +166,37 @@ module.exports = class Header extends Component {
               position: absolute;
               bottom: 50px;
             }
+            .totalOpen {
+              position: fixed;
+              top: 80px;
+              left: 80px;
+              z-index: 10000000000;
+            }
+            .totalClosed {
+              position: fixed;
+              top: 80px;
+              right: 80px;
+              z-index: 10000000000;
+            }
           }
           `}</style>
+
+        <div className='totalOpen'>
+          {this.state.images.length >= 1 && (
+            <h1>open: {this.state.open}</h1>
+          )}
+        </div>
+
+        <div className='totalClosed'>
+          {this.state.images.length >= 1 && (
+            <h1>closed: {this.state.closed}</h1>
+          )}
+        </div>
+        <div className='images'>
+          {this.state.images.map((image, i) => {
+            return <Window key={image.key} id={i} image={image.image} closeImage={this.closeImage} />
+          })}
+        </div>
         <div className='header rel'>
           <h1 className='caps'>Kevin&nbsp;Green</h1>
           <div className='social__block'>
@@ -118,7 +207,7 @@ module.exports = class Header extends Component {
               <a href="https://github.com/iamkevingreen" target="_blank"><img src='static/github.png' /></a>
             </div>
           </div>
-          <div className='spaghetti'>
+          <div className='spaghetti' onClick={() => this.startSpaghetti()}>
             <img src='static/spaghetti.png' />
           </div>
         </div>

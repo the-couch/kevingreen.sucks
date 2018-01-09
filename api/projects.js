@@ -150,6 +150,9 @@ module.exports = {
       quote: "generally doesn't think your ideas are good but might code it for money"
     },
     {
+      quote: 'has lit his hair on fire at a company party'
+    },
+    {
       quote: 'would trade equity for time with your cat'
     },
     {
@@ -157,6 +160,15 @@ module.exports = {
     },
     {
       quote: 'once went to a casper meeting with pigtails'
+    },
+    {
+      quote: 'has more plants than you'
+    },
+    {
+      quote: 'thanks for the nda, 20 other people sent me the same idea'
+    },
+    {
+      quote:'lives above the apple store and is really upset about it'
     },
     {
       quote: 'just wait till my autobiography drops'
