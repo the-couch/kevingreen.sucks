@@ -204,6 +204,12 @@ module.exports = {
       quote: 'thanks for the nda, 20 other people sent me the same idea'
     },
     {
+      quote: 'ask erin about the dusty stick'
+    },
+    {
+      quote: 'still has 6 matchless tokens left, RIP'
+    },
+    {
       quote:'lives above the apple store and is really upset about it'
     },
     {

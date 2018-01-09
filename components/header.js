@@ -26,6 +26,15 @@ const images = [
     image: 'https://s3.amazonaws.com/couchnyc/spaghetti_5.gif'
   },
   {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_7.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_8.gif'
+  },
+  {
+    image: 'https://s3.amazonaws.com/couchnyc/spaghetti_9.gif'
+  },
+  {
     image: 'https://s3.amazonaws.com/couchnyc/spaghetti_1.jpg'
   },
   {
@@ -63,13 +72,12 @@ module.exports = class Header extends Component {
   }
   renderSpaghetti () {
     this.setState({
-      images: [...this.state.images, {key: this.state.start, image: images[getRandomInt(8)].image}],
+      images: [...this.state.images, {key: this.state.start, image: images[getRandomInt(11)].image}],
       start: this.state.start + 1,
       open: this.state.open + 1
     })
   }
   closeImage (e) {
-    console.log('close image', e)
     let currentImages = this.state.images
     currentImages.splice(e, 1)
     this.setState({
