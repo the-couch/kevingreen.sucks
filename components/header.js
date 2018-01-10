@@ -140,6 +140,7 @@ module.exports = class Header extends Component {
           }
           .social img {
             width: 30px;
+            display: block;
           }
           .spaghetti {
             display: none;
@@ -155,15 +156,15 @@ module.exports = class Header extends Component {
             }
             .header h1 {
               position: absolute;
-              top: 260px;
+              top: 180px;
               left: 0px;
               transform: rotate(-90deg);
               width: 100%;
             }
             .social__block {
-              height: 100px;
+              height: 80px;
               width: 100%;
-              bottom: 200px;
+              bottom: 140px;
               top: auto;
               border-top: 5px solid black;
               border-bottom: 5px solid black;
@@ -175,6 +176,14 @@ module.exports = class Header extends Component {
               display: block;
               position: absolute;
               bottom: 50px;
+              text-align: center;
+              left: 0;
+              width: 100%;
+            }
+            .spaghetti img {
+              width: 50px;
+              // height: 50px;
+              display: inline-block;
             }
             .totalOpen {
               position: fixed;

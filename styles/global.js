@@ -65,7 +65,8 @@ module.exports = ({background, color}) => (
       }
       @media (min-width: 45rem) {
         h1 {
-          font-size: 32px;
+          font-size: 24px;
+          letter-spacing: 1px;
         }
         h2 a, h2 {
           font-size: 40px;
