@@ -80,7 +80,7 @@ export default class extends Component {
               max-width: 22px;
             }
           }
-          @media (min-width: 45rem) and (min-height: 800px) {
+          @media (min-width: 45rem) and (min-height: 640px) {
             .projects {
               margin-left: 140px;
             }
@@ -88,7 +88,7 @@ export default class extends Component {
               margin-left: 140px;
             }
           }
-          @media (min-width: 55rem) and (min-height: 800px) {
+          @media (min-width: 55rem) and (min-height: 640px) {
             .projects {
               margin-left: 200px;
               margin-right: 340px;
@@ -122,6 +122,7 @@ export default class extends Component {
               top: 0;
               height: calc(100vh - 240px);
               border-left: 5px solid black;
+              border-right: 5px solid black;
               display: flex;
               flex-wrap: wrap;
               align-items: center;
@@ -129,6 +130,7 @@ export default class extends Component {
             .quotes__single {
               border-bottom: 5px solid black;
               padding: 14px;
+              width: 100%;
               height: 2px;
               text-align: center;
               cursor: pointer;

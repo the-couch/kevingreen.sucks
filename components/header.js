@@ -145,7 +145,7 @@ module.exports = class Header extends Component {
           .spaghetti {
             display: none;
           }
-          @media (min-width: 45rem) and (min-height: 800px) {
+          @media (min-width: 45rem) and (min-height: 640px) {
             .header {
               position: fixed;
               width: 140px;
