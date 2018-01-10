@@ -32,7 +32,7 @@ module.exports = ({ name, url, position, tools, image, colorChange }) => (
         z-index: 10;
       }
       .project__details:hover + .project__image {
-        opacity: 0.6;
+        opacity: 0.2;
         visibility: visible;
         width: 100vw;
         height: 100vh;

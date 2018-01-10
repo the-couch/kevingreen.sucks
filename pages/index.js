@@ -90,7 +90,7 @@ export default class extends Component {
           }
           @media (min-width: 55rem) and (min-height: 800px) {
             .projects {
-              margin-left: 160px;
+              margin-left: 200px;
               margin-right: 340px;
             }
             .about {
@@ -136,7 +136,7 @@ export default class extends Component {
             }
             .quotes__single p {
               font-weight: 600;
-              font-size: 28px;
+              font-size: 21px;
             }
             .quotes__single.active {
               height: auto;
