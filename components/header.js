@@ -176,6 +176,7 @@ module.exports = class Header extends Component {
               display: block;
               position: absolute;
               bottom: 50px;
+              cursor: pointer;
               text-align: center;
               left: 0;
               width: 100%;

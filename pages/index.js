@@ -26,18 +26,7 @@ export default class extends Component {
     initGA()
     logPageView()
   }
-  toggleOffice () {
-    this.setState({
-      plantOne: true,
-      plantTwo: true
-    })
-  }
-  audio (playing) {
-    const audio = document.getElementById('Audio')
-    playing ? audio.play() : audio.pause()
-  }
   render () {
-    const { data } = API
     console.info("%c We're using Next.js for this because we got bored", 'background: #021993; color: #fff')
     console.info("%c The code's up on our git: https://github.com/the-couch/couch-site", 'background: #021993; color: #fff')
     return (
