@@ -1,3 +1,4 @@
+
 module.exports = ({ name, url, position, tools, image, colorChange }) => (
   <div className='project'>
     <style jsx>{`
@@ -50,8 +51,9 @@ module.exports = ({ name, url, position, tools, image, colorChange }) => (
       <h4 className='mx0 px0'>{position}</h4>
       <p className='mx0 px0'>{tools}</p>
     </div>
-    {image && (<div className='project__image'>
-        <img src={image} />
+    {image && (
+      <div className='project__image'>
+        <div style={{backgroundColor: colorChange}} />
       </div>
     )}
   </div>

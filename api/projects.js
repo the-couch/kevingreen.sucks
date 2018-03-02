@@ -1,6 +1,14 @@
 module.exports = {
   data: [
     {
+      name: 'Fur',
+      position: 'Frontend Development',
+      tools: 'Shopify, Slater, Vanilla JS',
+      url: 'https://furyou.com',
+      colorChange: '#510C31',
+      image: '/static/furyou.jpg'
+    },
+    {
       name: 'The Wing Marketing',
       position: 'Front/Backend Development',
       tools: 'React, Gatsby, Algolia, Wordpress API, Shopify',
@@ -176,14 +184,14 @@ module.exports = {
       url: 'http://brooklyngin.com/',
       colorChange: '#594D49',
       image: '/static/brooklyn.jpg'
-    },
+    }
   ],
   quotes: [
     {
       quote: 'rumored to have coded at least 50% of the internet'
     },
     {
-      quote: "has coded bad ideas in the past, would do it again"
+      quote: 'has coded bad ideas in the past, would do it again'
     },
     {
       quote: 'has lit his hair on fire at a company party'
@@ -210,7 +218,7 @@ module.exports = {
       quote: 'still has 6 matchless tokens left, RIP'
     },
     {
-      quote:'lives above the apple store and is really upset about it'
+      quote: 'lives above the apple store and is really upset about it'
     },
     {
       quote: 'just wait till my autobiography drops'
