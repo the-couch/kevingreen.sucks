@@ -224,6 +224,9 @@ module.exports = {
       quote: 'just wait till my autobiography drops'
     },
     {
+      quote: 'has 2 of the finest custodians: Paul and Hendy'
+    },
+    {
       quote: "doesn't remember a lot of 2017 but most likely coded more than slept"
     }
   ]
