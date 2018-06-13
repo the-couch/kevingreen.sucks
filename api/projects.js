@@ -160,7 +160,6 @@ module.exports = {
       name: 'Grandlife Hotels',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, WPML, Multi-site',
-      url: 'http://www.grandlifehotels.com/',
       colorChange: '#000000',
       image: '/static/grandlife.jpg'
     },
