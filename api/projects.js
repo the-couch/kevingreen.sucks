@@ -1,6 +1,22 @@
 module.exports = {
   data: [
     {
+      name: `Camp No Man's Land`,
+      position: 'Frontend Development',
+      tools: 'React',
+      url: 'https://camp.the-wing.com',
+      colorChange: '#d7ecdc',
+      image: '/static/furyou.jpg'
+    },
+    {
+      name: 'Codecademy Career Hub',
+      position: 'Frontend Development',
+      tools: 'React',
+      url: 'https://www.codecademy.com/skill-up',
+      colorChange: '#64edbe',
+      image: '/static/furyou.jpg'
+    },
+    {
       name: 'Fur',
       position: 'Frontend Development',
       tools: 'Shopify, Slater, Vanilla JS',
