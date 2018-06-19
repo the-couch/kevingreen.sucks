@@ -1,6 +1,13 @@
 module.exports = {
   data: [
     {
+      name: `Blume`,
+      position: 'Frontend Development',
+      tools: 'Shopify, React',
+      url: 'https://www.meetblume.com',
+      colorChange: '#1F4068'
+    },
+    {
       name: `Camp No Man's Land`,
       position: 'Frontend Development',
       tools: 'React',
