@@ -187,7 +187,7 @@ module.exports = {
       name: 'Artemest',
       position: 'Front/Backend Development',
       tools: 'Vanilla JS',
-      url: 'http://csindus.com/',
+      url: 'https://artemest.com/',
       colorChange: '#B79961',
       image: '/static/artemest.jpg'
     },
