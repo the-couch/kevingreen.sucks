@@ -228,6 +228,9 @@ module.exports = {
       quote: 'once went to a casper meeting with pigtails'
     },
     {
+      quote: 'autographs available at midway on weeknights'
+    },
+    {
       quote: 'has more plants than you'
     },
     {
