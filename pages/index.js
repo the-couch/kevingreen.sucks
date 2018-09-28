@@ -60,6 +60,7 @@ export default class extends Component {
           }
           .projects {
             padding: 20px;
+            padding-bottom: 50px;
           }
           .quotes {
             display: none;
