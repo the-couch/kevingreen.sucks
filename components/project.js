@@ -1,5 +1,5 @@
 
-module.exports = ({ name, url, position, tools, image, colorChange }) => (
+module.exports = ({ name, url, position, tools, image, colorChange, agency, agencyUrl }) => (
   <div className='project'>
     <style jsx>{`
       .project {
@@ -38,6 +38,13 @@ module.exports = ({ name, url, position, tools, image, colorChange }) => (
         width: 100vw;
         height: 100vh;
       }
+      .project__details .small a {
+        color: currentColor;
+        font-size: 0.8rem;
+      }
+      .project__details .small {
+        font-size: 0.8rem;
+      }
       .project__details:hover h2 a,
       .project__details:hover h4,
       .project__details:hover p {
@@ -49,7 +56,7 @@ module.exports = ({ name, url, position, tools, image, colorChange }) => (
     <div className='project__details'>
       <h2 className='mx0 px0'><a href={url} target='_blank'>{name}</a></h2>
       <h4 className='mx0 px0'>{position}</h4>
-      <p className='mx0 px0'>{tools}</p>
+      <p className='mx0 px0'>{tools}<br /><i className='small'>While at <a href={agencyUrl} target='_blank'>{agency}</a></i></p>
     </div>
     {image && (
       <div className='project__image'>

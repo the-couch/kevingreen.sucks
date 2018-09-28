@@ -5,7 +5,9 @@ module.exports = {
       position: 'Frontend Development',
       tools: 'Shopify, React',
       url: 'https://www.meetblume.com',
-      colorChange: '#1F4068'
+      colorChange: '#1F4068',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: `Camp No Man's Land`,
@@ -13,7 +15,9 @@ module.exports = {
       tools: 'React',
       url: 'https://camp.the-wing.com',
       colorChange: '#d7ecdc',
-      image: '/static/furyou.jpg'
+      image: '/static/furyou.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'Codecademy Career Hub',
@@ -21,7 +25,9 @@ module.exports = {
       tools: 'React',
       url: 'https://www.codecademy.com/skill-up',
       colorChange: '#64edbe',
-      image: '/static/furyou.jpg'
+      image: '/static/furyou.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'Fur',
@@ -29,7 +35,9 @@ module.exports = {
       tools: 'Shopify, Slater, Vanilla JS',
       url: 'https://furyou.com',
       colorChange: '#510C31',
-      image: '/static/furyou.jpg'
+      image: '/static/furyou.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'The Wing Marketing',
@@ -37,7 +45,9 @@ module.exports = {
       tools: 'React, Gatsby, Algolia, Wordpress API, Shopify',
       url: 'https://www.the-wing.com',
       colorChange: '#d28c0e',
-      image: '/static/the-wing.jpg'
+      image: '/static/the-wing.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'The Wing Coven',
@@ -45,7 +55,9 @@ module.exports = {
       tools: 'Meteor, React, Stripe, Algolia, MongoDB',
       url: 'https://witches.the-wing.com',
       colorChange: '#d28c0e',
-      image: '/static/wing-coven.jpg'
+      image: '/static/wing-coven.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'Wool & Oak',
@@ -53,7 +65,9 @@ module.exports = {
       tools: 'Preact, Shopify, Contentful',
       url: 'https://www.woolandoak.com',
       colorChange: '#d0693c',
-      image: '/static/woolandoak.jpg'
+      image: '/static/woolandoak.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'Thing of Wonder',
@@ -61,7 +75,9 @@ module.exports = {
       tools: 'Timber, Wordpress, Vanilla JS',
       url: 'http://thingofwonder.com',
       colorChange: '#fd8180',
-      image: '/static/thingofwonder.jpg'
+      image: '/static/thingofwonder.jpg',
+      agency: 'Gander',
+      agencyUrl: 'https://takeagander.com'
     },
     {
       name: 'MissionU',
@@ -69,7 +85,9 @@ module.exports = {
       tools: 'React, Redux, Express',
       url: 'https://www.missionu.com',
       colorChange: '#ec6054',
-      image: '/static/missionu.jpg'
+      image: '/static/missionu.jpg',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Cabin',
@@ -77,7 +95,9 @@ module.exports = {
       tools: 'React',
       url: 'https://www.ridecabin.com',
       colorChange: '#ffffff',
-      image: '/static/cabin.jpg'
+      image: '/static/cabin.jpg',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Bowery Farming',
@@ -85,7 +105,9 @@ module.exports = {
       tools: 'Meteor, React, Prismic',
       url: 'http://boweryfarming.com',
       colorChange: 'rgba(166,38,138,1)',
-      image: '/static/bowery.jpg'
+      image: '/static/bowery.jpg',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Perfect Day',
@@ -93,7 +115,9 @@ module.exports = {
       tools: 'Timber, Wordpress, Vanilla JS',
       url: 'http://perfectdayfoods.com',
       colorChange: '#6d94ff',
-      image: '/static/perfectday.jpg'
+      image: '/static/perfectday.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: "Chef's Cut Real Jerky",
@@ -101,7 +125,9 @@ module.exports = {
       tools: 'React, Shopify, Prismic',
       url: 'https://chefscutrealjerky.com/',
       colorChange: '#c92434',
-      image: '/static/chefcut.jpg'
+      image: '/static/chefcut.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Embroker',
@@ -109,17 +135,23 @@ module.exports = {
       tools: 'Vanilla JS',
       url: 'https://embroker.com/',
       colorChange: '#6673ff',
-      image: '/static/embroker.jpg'
+      image: '/static/embroker.jpg',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Here One',
       position: 'Front/Backend Development',
-      tools: 'Meteor, React, Schema.io'
+      tools: 'Meteor, React, Schema.io',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Olapic',
       position: 'Front/Backend Development',
-      tools: 'Wordpress, Timber, Vanilla JS'
+      tools: 'Wordpress, Timber, Vanilla JS',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Imboldn',
@@ -127,12 +159,16 @@ module.exports = {
       tools: 'Wordpress, Timber, WPML, Vanilla JS',
       url: 'http://imboldn.com/',
       colorChange: '#000000',
-      image: '/static/imboldn.jpg'
+      image: '/static/imboldn.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Maiyet',
       position: 'Front/Backend Development',
-      tools: 'Meteor, React, Firebase, Algolia, Shopify'
+      tools: 'Meteor, React, Firebase, Algolia, Shopify',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Tasting Table',
@@ -140,7 +176,9 @@ module.exports = {
       tools: 'Vanilla JS',
       url: 'http://tastingtable.com/',
       colorChange: '#0062FF',
-      image: '/static/tasting-table.jpg'
+      image: '/static/tasting-table.jpg',
+      agency: 'Red Antler',
+      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Theas English Tea',
@@ -148,12 +186,16 @@ module.exports = {
       tools: 'Wordpress, Timber, Vanilla JS',
       url: 'http://theasenglishtea.com/',
       colorChange: '#f4c850',
-      image: '/static/theas.jpg'
+      image: '/static/theas.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Inday NYC',
       position: 'Frontend Development',
-      tools: 'Vanilla JS'
+      tools: 'Vanilla JS',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Breadhouse',
@@ -161,19 +203,25 @@ module.exports = {
       tools: 'Vanilla JS',
       url: 'http://breadhou.se/',
       colorChange: '#ffffff',
-      image: '/static/breadhouse.jpg'
+      image: '/static/breadhouse.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Grandlife Hotels',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, WPML, Multi-site',
       colorChange: '#000000',
-      image: '/static/grandlife.jpg'
+      image: '/static/grandlife.jpg',
+      agency: 'Sweden Unlimited',
+      agencyUrl: 'https://www.swedenunlimited.com'
     },
     {
       name: 'Sunland',
       position: 'Front/Backend Development',
-      tools: 'Wordpress, Timber, Vanilla JS'
+      tools: 'Wordpress, Timber, Vanilla JS',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'CS Industries',
@@ -181,7 +229,9 @@ module.exports = {
       tools: 'Vanilla JS',
       url: 'http://csindus.com/',
       colorChange: '#ffffff',
-      image: '/static/cs.jpg'
+      image: '/static/cs.jpg',
+      agency: 'Freelance',
+      agencyUrl: 'https://kevingreen.sucks'
     },
     {
       name: 'Artemest',
@@ -189,7 +239,9 @@ module.exports = {
       tools: 'Vanilla JS',
       url: 'https://artemest.com/',
       colorChange: '#B79961',
-      image: '/static/artemest.jpg'
+      image: '/static/artemest.jpg',
+      agency: 'Sweden Unlimited',
+      agencyUrl: 'https://www.swedenunlimited.com'
     },
     {
       name: 'Ellevate Network',
@@ -197,7 +249,9 @@ module.exports = {
       tools: 'Rails, Ruby',
       url: 'http://ellevatenetwork.com/',
       colorChange: '#004da5',
-      image: '/static/ellevate.jpg'
+      image: '/static/ellevate.jpg',
+      agency: 'Barrel',
+      agencyUrl: 'https://www.barrelny.com'
     },
     {
       name: 'Brooklyn Gin',
@@ -205,7 +259,9 @@ module.exports = {
       tools: 'Wordpress',
       url: 'http://brooklyngin.com/',
       colorChange: '#594D49',
-      image: '/static/brooklyn.jpg'
+      image: '/static/brooklyn.jpg',
+      agency: 'Barrel',
+      agencyUrl: 'https://www.barrelny.com'
     }
   ],
   quotes: [
