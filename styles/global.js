@@ -69,12 +69,12 @@ module.exports = ({background, color}) => (
           letter-spacing: 1px;
         }
         h2 a, h2 {
-          font-size: 40px;
+          font-size: 38px;
         }
       }
       @media (min-width: 55rem) {
         h2 a, h2 {
-          font-size: 50px;
+          font-size: 42px;
         }
       }
       .ar {

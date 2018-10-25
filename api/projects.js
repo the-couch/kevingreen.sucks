@@ -28,6 +28,15 @@ module.exports = {
       image: '/static/furyou.jpg',
       agency: 'The Couch',
       agencyUrl: 'https://thecouch.nyc'
+    },,
+    {
+      name: 'Parsley Health',
+      position: 'Frontend Development',
+      tools: 'Wordpress, Timber, React, Vanilla JS',
+      url: 'https://www.parsleyhealth.com/',
+      colorChange: '#64bcae',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
     },
     {
       name: 'Fur',

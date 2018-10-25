@@ -3,7 +3,7 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
   <div className='project'>
     <style jsx>{`
       .project {
-        padding: 30px 0;
+        padding: 20px 0;
         overflow: hidden;
       }
       @media (min-width: 80em) {
