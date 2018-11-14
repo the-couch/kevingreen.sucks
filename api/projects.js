@@ -1,6 +1,17 @@
 module.exports = {
   data: [
     {
+      name: `Dims`,
+      position: 'Frontend Development Support',
+      tools: 'Shopify',
+      url: 'https://www.dimshome.com',
+      colorChange: '#f4c9a8',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc',
+      help: 'E-Dawg',
+      withLink: 'https://estrattonbailey.com/'
+    },
+    {
       name: `Blume`,
       position: 'Frontend Development',
       tools: 'Shopify, React',

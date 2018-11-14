@@ -1,5 +1,5 @@
 
-module.exports = ({ name, url, position, tools, image, colorChange, agency, agencyUrl }) => (
+module.exports = ({ name, url, position, tools, image, colorChange, agency, agencyUrl, help, withLink }) => (
   <div className='project'>
     <style jsx>{`
       .project {
@@ -56,7 +56,7 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
     <div className='project__details'>
       <h2 className='mx0 px0'><a href={url} target='_blank'>{name}</a></h2>
       <h4 className='mx0 px0'>{position}</h4>
-      <p className='mx0 px0'>{tools}<br /><i className='small'>While at <a href={agencyUrl} target='_blank'>{agency}</a></i></p>
+      <p className='mx0 px0'>{tools}<br /><i className='small'>While at <a href={agencyUrl} target='_blank'>{agency}</a>{help && (<span> with <a href={withLink} target='_blank'>{help}</a></span>)}</i></p>
     </div>
     {image && (
       <div className='project__image'>
