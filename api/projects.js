@@ -90,6 +90,15 @@ module.exports = {
       agencyUrl: 'https://thecouch.nyc'
     },
     {
+      name: '53w53',
+      position: 'Frontend Development',
+      tools: 'Next.js, React, Contenful',
+      url: 'https://www.53w53.com/',
+      colorChange: '#000000',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
       name: 'Thing of Wonder',
       position: 'Front/Backend Development',
       tools: 'Timber, Wordpress, Vanilla JS',
