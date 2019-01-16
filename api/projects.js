@@ -1,6 +1,26 @@
 module.exports = {
   data: [
     {
+      name: `Supercluster`,
+      position: 'Frontend Development',
+      tools: 'Contentful, Gatsby, Shopify Storefront API, Skyscanner API',
+      url: 'https://www.supperclsuter.com',
+      colorChange: '#fff003',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
+      name: `Snowe`,
+      position: 'Frontend Development Support',
+      tools: 'Shopify',
+      url: 'https://www.snowehome.com',
+      colorChange: '#EFF5F8',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc',
+      help: 'Snowe Team',
+      withLink: 'https://www.snowehome.com/'
+    },
+    {
       name: `Dims`,
       position: 'Frontend Development Support',
       tools: 'Shopify',
