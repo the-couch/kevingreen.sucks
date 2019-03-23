@@ -1,10 +1,19 @@
 module.exports = {
   data: [
     {
+      name: `prima`,
+      position: 'Frontend Development',
+      tools: 'Sanity, Gatsby',
+      url: 'https://www.prima.co',
+      colorChange: '#113034',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
       name: `Supercluster`,
       position: 'Frontend Development',
       tools: 'Contentful, Gatsby, Shopify Storefront API, Skyscanner API',
-      url: 'https://www.supperclsuter.com',
+      url: 'https://www.supercluster.com',
       colorChange: '#fff003',
       agency: 'The Couch',
       agencyUrl: 'https://thecouch.nyc'
@@ -313,6 +322,43 @@ module.exports = {
       agencyUrl: 'https://www.barrelny.com'
     }
   ],
+  sideHustles: [
+    {
+      name: 'slater',
+      description: 'package for building shopify stores with live-reload, postcss and modern es6/npm support',
+      url: 'https://github.com/the-couch/slater'
+    },
+    {
+      name: 'fffetch',
+      description: 'pre-fetch an array of URLS for prepopulating open graph data',
+      url: 'https://fffetch.now.sh'
+    },
+    {
+      name: 'fffetch',
+      description: 'pre-fetch an array of URLS for prepopulating open graph data',
+      url: 'https://fffetch.now.sh'
+    },
+    {
+      name: 'paralless',
+      description: 'simple parallax with css transitions and request animation frame',
+      url: 'https://github.com/the-couch/paralless'
+    },
+    {
+      name: 'shopify meta field mapper',
+      description: 'migrate meta fields in your shopify stores (for switching between meta plugins)',
+      url: 'https://shopify-meta-migrator.now.sh/'
+    },
+    {
+      name: 'hooked',
+      description: 'microservice by example, pushing data from contentful to shopify',
+      url: 'https://hooked.now.sh'
+    },
+    {
+      name: 'strider',
+      description: 'react library for building quizzes, application flows, stepped data',
+      url: 'https://github.com/the-couch/strider'
+    }
+  ],
   quotes: [
     {
       quote: 'rumored to have coded at least 50% of the internet'
@@ -325,6 +371,9 @@ module.exports = {
     },
     {
       quote: 'would trade equity for time with your cat'
+    },
+    {
+      quote: `I don't want to live on this internet anymore`
     },
     {
       quote: 'refuses to explain fixation with spaghetti'

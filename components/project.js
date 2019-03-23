@@ -3,7 +3,7 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
   <div className='project'>
     <style jsx>{`
       .project {
-        padding: 20px 0;
+        padding: 20px;
         overflow: hidden;
       }
       @media (min-width: 80em) {
@@ -51,6 +51,13 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
         position: relative;
         z-index: 10;
         color: ${colorChange};
+      }
+
+      @media (min-width: 55rem) and (min-height: 640px) {
+        .project {
+          padding-right: 4rem;
+          padding-left: 4rem;
+        }
       }
       `}</style>
     <div className='project__details'>

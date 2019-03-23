@@ -40,6 +40,26 @@ export default class extends Component {
             border-bottom: 5px solid black;
             padding: 20px;
           }
+          .side__hustles {
+            margin-top: 3rem;
+            border-top: 4px solid black;
+          }
+          .side__hustles .container {
+            padding: 20px;
+          }
+          .side__hustles h2 {
+            margin-bottom: 4px;
+            padding-bottom: 0px;
+          }
+          .side__hustles p {
+            margin-top: 0;
+          }
+          .side__hustles a {
+            transition: color 0.25s ease-in-out;
+          }
+          .side__hustles a:hover {
+            color: red;
+          }
           .about__link a {
             background: black;
             color: white;
@@ -59,7 +79,6 @@ export default class extends Component {
             padding: 2px 0;
           }
           .projects {
-            padding: 20px;
             padding-bottom: 50px;
           }
           .quotes {
@@ -72,6 +91,7 @@ export default class extends Component {
           }
           @media (min-width: 45rem) and (min-height: 640px) {
             .projects {
+              margin-top: 1rem;
               margin-left: 140px;
             }
             .about {
@@ -80,8 +100,12 @@ export default class extends Component {
           }
           @media (min-width: 55rem) and (min-height: 640px) {
             .projects {
-              margin-left: 200px;
-              margin-right: 340px;
+              margin-left: 120px;
+              margin-right: 280px;
+            }
+
+            .side__hustles .container {
+              padding: 2rem 4rem 0;
             }
             .about {
               position: fixed;
@@ -157,6 +181,17 @@ export default class extends Component {
               {API.data.map((project, i) => (
                 <Project key={i} {...project} />
               ))}
+              <div className='side__hustles'>
+                <div className='container'>
+                  <h3>Side Hustles</h3>
+                  {API.sideHustles.map((project, i) => (
+                    <div>
+                      <h2><a href={project.url} target='_blank'>{project.name}</a></h2>
+                      <p>{project.description}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         </div>
