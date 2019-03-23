@@ -39,6 +39,7 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
         height: 100vh;
       }
       .project__details .small a {
+        transition: all 0.25s ease-in-out;
         color: currentColor;
         font-size: 0.8rem;
       }

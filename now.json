@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "kevingreen.sucks",
+  "alias": [ "kevingreen.sucks" ],
+  "builds": [
+  	{ "src": "package.json", "use": "@now/static-build" }
+  ]
+}

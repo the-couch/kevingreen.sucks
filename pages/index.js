@@ -27,8 +27,7 @@ export default class extends Component {
     logPageView()
   }
   render () {
-    console.info("%c We're using Next.js for this because we got bored", 'background: #021993; color: #fff')
-    console.info("%c The code's up on our git: https://github.com/the-couch/couch-site", 'background: #021993; color: #fff')
+    console.info("%c Co-Founder of The Couch: https://thecouch.nyc", 'background: #021993; color: #fff')
     return (
       <Layout>
         <Header />
