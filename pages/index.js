@@ -41,7 +41,7 @@ export default class extends Component {
           }
           .side__hustles {
             margin-top: 3rem;
-            border-top: 4px solid black;
+            border-top: 5px solid black;
           }
           .side__hustles .container {
             padding: 20px;

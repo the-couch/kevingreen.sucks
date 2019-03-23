@@ -334,11 +334,6 @@ module.exports = {
       url: 'https://fffetch.now.sh'
     },
     {
-      name: 'fffetch',
-      description: 'pre-fetch an array of URLS for prepopulating open graph data',
-      url: 'https://fffetch.now.sh'
-    },
-    {
       name: 'paralless',
       description: 'simple parallax with css transitions and request animation frame',
       url: 'https://github.com/the-couch/paralless'
