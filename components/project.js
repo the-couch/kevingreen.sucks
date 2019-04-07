@@ -28,6 +28,9 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
         width: 100vw;
         height: 100vh;
       }
+      .project__details {
+        transition: all 0.25s ease-in-out;
+      }
       .project__details:hover {
         position: relative;
         z-index: 10;
@@ -38,8 +41,13 @@ module.exports = ({ name, url, position, tools, image, colorChange, agency, agen
         width: 100vw;
         height: 100vh;
       }
-      .project__details .small a {
+
+      .project__details h2 a,
+      .project__details h4,
+      .project__details p {
         transition: all 0.25s ease-in-out;
+      }
+      .project__details .small a {
         color: currentColor;
         font-size: 0.8rem;
       }

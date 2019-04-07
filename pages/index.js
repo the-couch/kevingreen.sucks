@@ -53,6 +53,9 @@ export default class extends Component {
           .side__hustles p {
             margin-top: 0;
           }
+          .project__details {
+            transition: color 0.4s ease-in-out;
+          }
           .side__hustles a {
             transition: color 0.25s ease-in-out;
           }
