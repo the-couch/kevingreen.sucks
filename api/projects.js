@@ -68,7 +68,16 @@ module.exports = {
       image: '/static/furyou.jpg',
       agency: 'The Couch',
       agencyUrl: 'https://thecouch.nyc'
-    },,
+    },
+    {
+      name: 'Blueland',
+      position: 'Frontend Development',
+      tools: 'Shopify, Slater',
+      url: 'https://www.blueland.com/',
+      colorChange: '#26459B',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
     {
       name: 'Parsley Health',
       position: 'Frontend Development',
