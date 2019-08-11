@@ -27,7 +27,7 @@ export default class extends Component {
     logPageView()
   }
   render () {
-    console.info("%c Co-Founder of The Couch: https://thecouch.nyc", 'background: #021993; color: #fff')
+    console.info("%c Previously Co-Founder of The Couch: https://thecouch.nyc", 'background: #021993; color: #fff')
     return (
       <Layout>
         <Header />
@@ -165,8 +165,9 @@ export default class extends Component {
           <div className='wrapper main'>
             <div className='about'>
               <div className='about__text'>
-                <p>My name is Kevin Green, I'm currently the Lead Engineer and Co-Founder at <a href="https://thecouch.nyc">The Couch</a> living and working in Brooklyn.</p>
-                <p>Previously working for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
+                <p>My name is Kevin Green, currently operating independently as a Creative Developer and Technical Consultant.</p>
+                <p>Availability opening in 2020 🍝.</p>
+                <p>Previously Lead Engineer and Co-Founder at  at <a href="https://thecouch.nyc">The Couch</a>, before that worked for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
               </div>
               <div className='about__link'>
                 <a className='cw caps' href="mailto:kevin@ctrlaltdel.world">Write me a letter</a>

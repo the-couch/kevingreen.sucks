@@ -258,7 +258,6 @@ module.exports = {
       name: 'Theas English Tea',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, Vanilla JS',
-      url: 'http://theasenglishtea.com/',
       colorChange: '#f4c850',
       image: '/static/theas.jpg',
       agency: 'Freelance',
