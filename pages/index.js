@@ -169,7 +169,7 @@ export default class extends Component {
                 <p>Previously working for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
               </div>
               <div className='about__link'>
-                <a className='cw caps' href="mailto:kevin@thecouch.nyc">Write me a letter</a>
+                <a className='cw caps' href="mailto:kevin@ctrlaltdel.world">Write me a letter</a>
               </div>
             </div>
             <div className='quotes'>

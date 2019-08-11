@@ -1,9 +1,18 @@
 module.exports = {
   data: [
     {
+      name: `Glowbar`,
+      position: 'Frontend Development',
+      tools: 'Takeshape, React',
+      url: 'https://www.getglowbar.com',
+      colorChange: '#ff502d',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
       name: `prima`,
       position: 'Frontend Development',
-      tools: 'Sanity, Gatsby',
+      tools: 'Sanity, Gatsby, Serverless, Shopify',
       url: 'https://www.prima.co',
       colorChange: '#113034',
       agency: 'The Couch',
@@ -50,10 +59,28 @@ module.exports = {
       agencyUrl: 'https://thecouch.nyc'
     },
     {
+      name: 'Blueland',
+      position: 'Frontend Development',
+      tools: 'Shopify, Slater',
+      url: 'https://www.blueland.com/',
+      colorChange: '#26459B',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
+      name: 'Fur',
+      position: 'Frontend Development',
+      tools: 'Shopify, Slater, Vanilla JS',
+      url: 'https://furyou.com',
+      colorChange: '#510C31',
+      image: '/static/furyou.jpg',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
       name: `Camp No Man's Land`,
       position: 'Frontend Development',
       tools: 'React',
-      url: 'https://camp.the-wing.com',
       colorChange: '#d7ecdc',
       image: '/static/furyou.jpg',
       agency: 'The Couch',
@@ -70,30 +97,11 @@ module.exports = {
       agencyUrl: 'https://thecouch.nyc'
     },
     {
-      name: 'Blueland',
-      position: 'Frontend Development',
-      tools: 'Shopify, Slater',
-      url: 'https://www.blueland.com/',
-      colorChange: '#26459B',
-      agency: 'The Couch',
-      agencyUrl: 'https://thecouch.nyc'
-    },
-    {
       name: 'Parsley Health',
       position: 'Frontend Development',
       tools: 'Wordpress, Timber, React, Vanilla JS',
       url: 'https://www.parsleyhealth.com/',
       colorChange: '#64bcae',
-      agency: 'The Couch',
-      agencyUrl: 'https://thecouch.nyc'
-    },
-    {
-      name: 'Fur',
-      position: 'Frontend Development',
-      tools: 'Shopify, Slater, Vanilla JS',
-      url: 'https://furyou.com',
-      colorChange: '#510C31',
-      image: '/static/furyou.jpg',
       agency: 'The Couch',
       agencyUrl: 'https://thecouch.nyc'
     },
@@ -180,7 +188,7 @@ module.exports = {
       name: 'Perfect Day',
       position: 'Front/Backend Development',
       tools: 'Timber, Wordpress, Vanilla JS',
-      url: 'http://perfectdayfoods.com',
+      // url: 'http://perfectdayfoods.com',
       colorChange: '#6d94ff',
       image: '/static/perfectday.jpg',
       agency: 'Freelance',
@@ -241,7 +249,6 @@ module.exports = {
       name: 'Tasting Table',
       position: 'Frontend Development',
       tools: 'Vanilla JS',
-      url: 'http://tastingtable.com/',
       colorChange: '#0062FF',
       image: '/static/tasting-table.jpg',
       agency: 'Red Antler',
@@ -351,6 +358,11 @@ module.exports = {
       name: 'shopify meta field mapper',
       description: 'migrate meta fields in your shopify stores (for switching between meta plugins)',
       url: 'https://shopify-meta-migrator.now.sh/'
+    },
+    {
+      name: 'beer me',
+      description: 'text your friends to get you a beer',
+      url: 'https://someonegetmea.beer/'
     },
     {
       name: 'hooked',
