@@ -1,6 +1,15 @@
 module.exports = {
   data: [
     {
+      name: `re:store`,
+      position: 'Frontend Development',
+      tools: 'Sanity, Gatsby',
+      url: 'https://www.visitrestore.com',
+      colorChange: '#d0cef9',
+      agency: 'The Couch',
+      agencyUrl: 'https://thecouch.nyc'
+    },
+    {
       name: `Glowbar`,
       position: 'Frontend Development',
       tools: 'Takeshape, React',
