@@ -1,6 +1,15 @@
 module.exports = {
   data: [
     {
+      name: `stojo`,
+      position: 'Frontend Development',
+      tools: 'Shopify, React',
+      url: 'https://www.stojo.co',
+      colorChange: '#1c2232',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
       name: `re:store`,
       position: 'Frontend Development',
       tools: 'Sanity, Gatsby',
