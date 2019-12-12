@@ -1,6 +1,15 @@
 module.exports = {
   data: [
     {
+      name: `ilysm`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, Shopify, React',
+      url: 'https://ilysm.com',
+      colorChange: '#d85b3f',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
       name: `stojo`,
       position: 'Frontend Development',
       tools: 'Shopify, React',
