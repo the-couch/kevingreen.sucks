@@ -1,6 +1,33 @@
 module.exports = {
   data: [
     {
+      name: `spaghetti directory`,
+      position: 'Frontend Development',
+      tools: 'Eleventy, Sanity, React',
+      url: 'https://spaghetti.directory',
+      colorChange: '#FD4A1E',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `cat person`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, Shopify, React',
+      url: 'https://www.catperson.com',
+      colorChange: '#c7dbf0',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `usbyus`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, Shopify, React',
+      url: 'https://usby.us',
+      colorChange: '#ddddd6',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
       name: `ilysm`,
       position: 'Frontend Development',
       tools: 'Gatsby, Sanity, Shopify, React',
@@ -363,6 +390,11 @@ module.exports = {
     }
   ],
   sideHustles: [
+    {
+      name: 'midway',
+      description: 'Gatsby, Sanity, Shopify, TS starter for building e-commerce',
+      url: 'https://midway.ctrlaltdel.world'
+    },
     {
       name: 'slater',
       description: 'package for building shopify stores with live-reload, postcss and modern es6/npm support',
