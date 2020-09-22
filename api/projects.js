@@ -1,6 +1,33 @@
 module.exports = {
   data: [
     {
+      name: `Tia`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, React',
+      url: 'https://asktia.com',
+      colorChange: '#ffd328',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `Heed Foods`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, React, Shopify, Serverless, Recharge',
+      url: 'https://www.heedfoods.com',
+      colorChange: '#feb389',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `OffLimits Cereal`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, React, Shopify, Serverless, Recharge',
+      url: 'https://www.eatofflimits.com',
+      colorChange: '#93dfff',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
       name: `spaghetti directory`,
       position: 'Frontend Development',
       tools: 'Eleventy, Sanity, React',
@@ -19,7 +46,7 @@ module.exports = {
       agencyUrl: 'https://ctrlaltdel.world'
     },
     {
-      name: `usbyus`,
+      name: `USBYUS`,
       position: 'Frontend Development',
       tools: 'Gatsby, Sanity, Shopify, React',
       url: 'https://usby.us',
@@ -31,7 +58,6 @@ module.exports = {
       name: `ilysm`,
       position: 'Frontend Development',
       tools: 'Gatsby, Sanity, Shopify, React',
-      url: 'https://ilysm.com',
       colorChange: '#d85b3f',
       agency: 'Ctrl Alt Del',
       agencyUrl: 'https://ctrlaltdel.world'
@@ -127,15 +153,6 @@ module.exports = {
       tools: 'Shopify, Slater, Vanilla JS',
       url: 'https://furyou.com',
       colorChange: '#510C31',
-      image: '/static/furyou.jpg',
-      agency: 'The Couch',
-      agencyUrl: 'https://thecouch.nyc'
-    },
-    {
-      name: `Camp No Man's Land`,
-      position: 'Frontend Development',
-      tools: 'React',
-      colorChange: '#d7ecdc',
       image: '/static/furyou.jpg',
       agency: 'The Couch',
       agencyUrl: 'https://thecouch.nyc'
@@ -257,30 +274,6 @@ module.exports = {
       agencyUrl: 'https://kevingreen.sucks'
     },
     {
-      name: 'Embroker',
-      position: 'Frontend Development',
-      tools: 'Vanilla JS',
-      url: 'https://embroker.com/',
-      colorChange: '#6673ff',
-      image: '/static/embroker.jpg',
-      agency: 'Red Antler',
-      agencyUrl: 'https://redantler.com'
-    },
-    {
-      name: 'Here One',
-      position: 'Front/Backend Development',
-      tools: 'Meteor, React, Schema.io',
-      agency: 'Red Antler',
-      agencyUrl: 'https://redantler.com'
-    },
-    {
-      name: 'Olapic',
-      position: 'Front/Backend Development',
-      tools: 'Wordpress, Timber, Vanilla JS',
-      agency: 'Red Antler',
-      agencyUrl: 'https://redantler.com'
-    },
-    {
       name: 'Imboldn',
       position: 'Front/Backend Development',
       tools: 'Wordpress, Timber, WPML, Vanilla JS',
@@ -289,13 +282,6 @@ module.exports = {
       image: '/static/imboldn.jpg',
       agency: 'Freelance',
       agencyUrl: 'https://kevingreen.sucks'
-    },
-    {
-      name: 'Maiyet',
-      position: 'Front/Backend Development',
-      tools: 'Meteor, React, Firebase, Algolia, Shopify',
-      agency: 'Red Antler',
-      agencyUrl: 'https://redantler.com'
     },
     {
       name: 'Tasting Table',
@@ -312,13 +298,6 @@ module.exports = {
       tools: 'Wordpress, Timber, Vanilla JS',
       colorChange: '#f4c850',
       image: '/static/theas.jpg',
-      agency: 'Freelance',
-      agencyUrl: 'https://kevingreen.sucks'
-    },
-    {
-      name: 'Inday NYC',
-      position: 'Frontend Development',
-      tools: 'Vanilla JS',
       agency: 'Freelance',
       agencyUrl: 'https://kevingreen.sucks'
     },

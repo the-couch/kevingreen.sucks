@@ -8,7 +8,7 @@
     "start": "next",
     "now-build": "next build && next export -o dist",
     "export": "next export",
-    "deploy": "now && now alias"
+    "deploy": "now && now --prod"
   },
   "author": "iamkevingreen",
   "license": "ISC",
