@@ -1,6 +1,42 @@
 module.exports = {
   data: [
     {
+      name: `Vacation`,
+      position: 'Frontend Development',
+      tools: 'React, Shopify, Fauna, Severless',
+      url: 'https://www.vacation.inc',
+      colorChange: '#f1d27a',
+      agency: 'Jetskis',
+      agencyUrl: 'https://jetskis.biz'
+    },
+    {
+      name: `Allkinds`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, React, Shopify, Serverless, Algolia',
+      url: 'https://www.allkinds.com',
+      colorChange: '#f9423a',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `Eat Occo`,
+      position: 'Frontend Development',
+      tools: 'Gatsby, Sanity, React, Shopify',
+      url: 'https://www.eatocco.com',
+      colorChange: '#130c80',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
+      name: `Waste Not`,
+      position: 'Frontend Development',
+      tools: 'Eleventy, Sanity',
+      url: 'https://wastenot.world',
+      colorChange: '#5cb55d',
+      agency: 'Ctrl Alt Del',
+      agencyUrl: 'https://ctrlaltdel.world'
+    },
+    {
       name: `Tia`,
       position: 'Frontend Development',
       tools: 'Gatsby, Sanity, React',

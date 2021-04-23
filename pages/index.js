@@ -166,7 +166,8 @@ export default class extends Component {
             <div className='about'>
               <div className='about__text'>
                 <p>My name is Kevin Green, currently operating as <a href='https://ctrlaltdel.world'>Ctrl+Alt+Del</a> doing Creative Development and Technical Consulting.</p>
-                <p>Creator of <a href='https://spaghetti.directory'>spaghetti.directory</a></p>
+                <p>Founding member of <a href='https://jetskis.biz'>Jetskis.biz</a></p>
+                <p>Creator of <a href='https://spaghetti.directory'>spaghetti.directory</a> & <a href='https://shoreline.biz'>Shoreline</a></p>
                 <p>Availability opening in 2021? 🍝.</p>
                 <p>Previously Lead Engineer and Co-Founder at <a href="https://thecouch.nyc">The Couch</a>, before that worked for <a href="https://redantler.com">Red Antler</a>, <a href="https://swedenunlimited.com">Sweden Unlimited</a>, and <a href="https://barrelny.com">Barrel</a>.</p>
               </div>
